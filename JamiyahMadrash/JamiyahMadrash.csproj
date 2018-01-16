@@ -46,11 +46,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
@@ -58,6 +55,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -155,91 +153,91 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\BoardExamination.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Category.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Company.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CompanyForm.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CompanyModule.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Department.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Forms.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Gender.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ImageFile.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\JAMIYAHMADRASHA.Context.cs">
+    <Compile Include="Models\JAMIYAHSALAFIYAH.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>JAMIYAHMADRASHA.Context.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\JAMIYAHMADRASHA.cs">
+    <Compile Include="Models\JAMIYAHSALAFIYAH.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\JAMIYAHMADRASHA.Designer.cs">
+    <Compile Include="Models\JAMIYAHSALAFIYAH.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>JAMIYAHMADRASHA.edmx</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Modules.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MonthlyTutionFee.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\ResidentType.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SessionMonth.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SessionYear.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\StaffList.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\StudentAssigned.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\StudentAttachFile.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\StudentInfo.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\StudentInfoPreviousInstitution.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Subject.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\TutionFeeType.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Usergroup.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UserGroupForm.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UserGroupModule.cs">
-      <DependentUpon>JAMIYAHMADRASHA.tt</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -263,27 +261,27 @@
     <Content Include="img\portfolio\thumbnails\4.jpg" />
     <Content Include="img\portfolio\thumbnails\5.jpg" />
     <Content Include="img\portfolio\thumbnails\6.jpg" />
-    <Content Include="Models\JAMIYAHMADRASHA.Context.tt">
+    <Content Include="Models\JAMIYAHSALAFIYAH.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>JAMIYAHMADRASHA.Context.cs</LastGenOutput>
-      <DependentUpon>JAMIYAHMADRASHA.edmx</DependentUpon>
+      <DependentUpon>JAMIYAHSALAFIYAH.edmx</DependentUpon>
+      <LastGenOutput>JAMIYAHSALAFIYAH.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\JAMIYAHMADRASHA.tt">
+    <Content Include="Models\JAMIYAHSALAFIYAH.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>JAMIYAHMADRASHA.edmx</DependentUpon>
-      <LastGenOutput>JAMIYAHMADRASHA.cs</LastGenOutput>
+      <DependentUpon>JAMIYAHSALAFIYAH.edmx</DependentUpon>
+      <LastGenOutput>JAMIYAHSALAFIYAH.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="Models\JAMIYAHMADRASHA.edmx">
+    <EntityDeploy Include="Models\JAMIYAHSALAFIYAH.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>JAMIYAHMADRASHA.Designer.cs</LastGenOutput>
+      <LastGenOutput>JAMIYAHSALAFIYAH.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\JAMIYAHMADRASHA.edmx.diagram">
-      <DependentUpon>JAMIYAHMADRASHA.edmx</DependentUpon>
+    <Content Include="Models\JAMIYAHSALAFIYAH.edmx.diagram">
+      <DependentUpon>JAMIYAHSALAFIYAH.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
